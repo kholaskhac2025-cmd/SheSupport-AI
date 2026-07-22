@@ -1,3 +1,8 @@
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/23baeb3b-8067-4603-9940-c180254361ec" />
+<img width="1920" height="1080" alt="Screenshot (60)" src="https://github.com/user-attachments/assets/94267072-cf76-4803-b7ac-2c16c1110dda" />
+<img width="1920" height="1080" alt="Screenshot (59)" src="https://github.com/user-attachments/assets/82f8e337-7bcf-48d5-aeba-c4677436a508" />
+<img width="1920" height="1080" alt="Screenshot (58)" src="https://github.com/user-attachments/assets/4a98202e-017d-4854-833f-8674cedbe564" />
+<img width="1920" height="1080" alt="Screenshot (57)" src="https://github.com/user-attachments/assets/487f3f56-8410-4e23-a82d-9c8d6eefd03b" />
 # 🌸 SheSupport AI
 
 ## 🤖 AI Companion for Women's Emotional Wellbeing
