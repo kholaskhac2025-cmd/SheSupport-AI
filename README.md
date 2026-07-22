@@ -1,36 +1,171 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 SheSupport AI
 
-## Getting Started
+## 🤖 AI Companion for Women's Emotional Wellbeing
 
-First, run the development server:
+SheSupport AI is an AI-powered wellness companion designed to support women's emotional health, self-care, and wellbeing. It provides a safe digital space where users can share their feelings, track their moods, learn self-care practices, and get supportive AI guidance.
+
+---
+
+# 🌍 Problem It Solves
+
+Many women and university students experience stress, emotional pressure, mood changes, and difficulty accessing emotional wellness support. SheSupport AI provides an accessible AI-based platform that encourages emotional awareness, self-care habits, and wellbeing.
+
+---
+
+# 👩‍🎓 Target Users
+
+* University students
+* Women managing emotional stress
+* Individuals interested in self-care and wellbeing
+
+---
+
+# ✨ Features
+
+## 🤖 AI Emotional Support Chat
+
+* Provides supportive emotional conversations.
+* Users can express their feelings in English and Urdu.
+* Gives encouraging responses and healthy coping suggestions.
+* Promotes emotional reflection and wellbeing.
+
+## 😊 Mood Tracker
+
+* Allows users to record daily moods.
+* Helps identify emotional patterns.
+* Improves self-awareness.
+
+## 🌸 Period Tracker
+
+* Helps users track menstrual cycle information.
+* Supports menstrual awareness and management.
+* Encourages healthy menstrual hygiene practices.
+
+## 💡 Self Care Tips
+
+Provides guidance about:
+
+* Personal hygiene
+* Menstrual hygiene and changing pads regularly
+* Healthy daily routines
+* Self-care activities
+* Emotional wellness habits
+* Stress management practices
+
+## 🌐 Language Support
+
+The app supports:
+
+* English 🇬🇧
+* اردو 🇵🇰
+* Simple supportive communication
+
+---
+
+# 🧠 AI Feature
+
+The main AI feature of SheSupport AI is an emotional wellness chatbot.
+
+The AI assistant helps users by:
+
+* Listening with empathy
+* Supporting emotional expression
+* Encouraging positive coping strategies
+* Suggesting healthy self-care practices
+
+## AI System Prompt
+
+"You are SheSupport AI, a supportive emotional wellness companion. Respond with kindness, empathy, and encouragement. Help users reflect on their emotions and suggest healthy self-care strategies. Do not provide medical diagnosis and encourage users to seek professional help when required."
+
+---
+
+# 🛠️ Tools and Technologies Used
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* AI API Integration
+* GitHub
+* Vercel
+
+---
+
+# 🌐 Live Application
+
+https://she-support-ai.vercel.app/
+
+---
+
+# 📂 GitHub Repository
+
+https://github.com/kholaskhac2025-cmd/SheSupport-AI
+
+---
+
+# 🚀 How to Run Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kholaskhac2025-cmd/SheSupport-AI.git
+```
+
+Open project folder:
+
+```bash
+cd SheSupport-AI
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🌟 Project Impact
 
-To learn more about Next.js, take a look at the following resources:
+SheSupport AI aims to make emotional wellness support more accessible for women and students. It encourages users to understand their emotions, practice self-care, and develop healthier habits through AI-powered support.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 🔒 Privacy and Safety
 
-## Deploy on Vercel
+* SheSupport AI is designed to provide supportive wellbeing guidance.
+* User conversations are treated as private.
+* The app is not a replacement for professional medical or mental health care.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📸 Screenshots
+
+Add screenshots here:
+
+1. 🏠 Home Page
+2. 🤖 AI Chat Feature
+3. 😊 Mood Tracker
+4. 🌸 Self Care / Period Tracker
+
+---
+
+# 👩‍💻 Creator
+
+Built by **Khola Saqib**
+
+Project Name: **SheSupport AI 🌸**
+
+An AI-powered emotional wellness companion for women.
