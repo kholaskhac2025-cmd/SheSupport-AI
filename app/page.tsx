@@ -5,7 +5,6 @@ import { auth } from "@/lib/firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { useRouter } from "next/navigation";
 
-
 export default function Home() {
 
   const router = useRouter();
@@ -13,19 +12,13 @@ export default function Home() {
   const [user, setUser] = useState<any>(null);
 
 
-
   useEffect(() => {
 
-    const unsubscribe = onAuthStateChanged(
-      auth,
-      (currentUser) => {
-        setUser(currentUser);
-      }
-    );
-
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser);
+    });
 
     return () => unsubscribe();
-
 
   }, []);
 
@@ -35,8 +28,7 @@ export default function Home() {
 
     await signOut(auth);
 
-    router.push("/");
-
+    router.push("/login");
 
   };
 
@@ -44,196 +36,151 @@ export default function Home() {
 
   return (
 
-    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-pink-50 p-6">
+    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-pink-50 p-8">
 
 
-      <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-xl p-8">
-
+      <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-8">
 
 
         <h1 className="text-5xl font-bold text-center text-pink-600">
-
           🌸 SheSupport AI 🌸
-
         </h1>
 
 
-
         <p className="text-center mt-4 text-gray-600 text-lg">
-
           Your AI wellness companion for women's health,
           emotional support and self-care 💖
-
         </p>
-
 
 
 
         {user ? (
 
+          <div className="mt-8 bg-pink-50 rounded-2xl p-6">
 
-          <div className="mt-8 bg-pink-50 rounded-3xl p-6 text-center">
-
-
-            <h2 className="text-3xl font-bold text-pink-600">
-
-              Welcome back 🌸
-
+            <h2 className="text-2xl font-bold text-pink-600">
+              Welcome Back 🌸
             </h2>
 
 
             <p className="mt-3 text-gray-700">
-
               📧 {user.email}
-
             </p>
 
 
-
-            <div className="flex justify-center gap-4 mt-6">
-
-
-              <button
-
-                onClick={()=>router.push("/chat")}
-
-                className="bg-pink-600 text-white px-8 py-3 rounded-xl"
-
-              >
-
-                Chat Now 🤖
-
-              </button>
-
-
-
-              <button
-
-                onClick={logout}
-
-                className="bg-red-500 text-white px-8 py-3 rounded-xl"
-
-              >
-
-                Logout 🚪
-
-              </button>
-
-
-            </div>
-
+            <button
+              onClick={logout}
+              className="mt-5 bg-red-500 text-white px-6 py-3 rounded-xl"
+            >
+              Logout 🚪
+            </button>
 
           </div>
 
 
-
         ) : (
-
 
 
           <div className="flex justify-center gap-4 mt-8">
 
 
             <button
-
-              onClick={()=>router.push("/signup")}
-
+              onClick={() => router.push("/signup")}
               className="bg-pink-600 text-white px-8 py-3 rounded-xl"
-
             >
-
               Signup 🌸
-
             </button>
 
 
-
             <button
-
-              onClick={()=>router.push("/login")}
-
-              className="border-2 border-pink-600 text-pink-600 px-8 py-3 rounded-xl"
-
+              onClick={() => router.push("/login")}
+              className="border border-pink-600 text-pink-600 px-8 py-3 rounded-xl"
             >
-
               Login 💖
-
             </button>
 
 
           </div>
-
-
 
         )}
 
 
 
 
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
+
+        <div className="grid md:grid-cols-3 gap-5 mt-10">
 
 
+          <div
+            onClick={() => router.push("/chat")}
+            className="bg-pink-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
+          >
 
-          <div className="bg-pink-50 p-6 rounded-3xl text-center">
+            🤖
 
-            <div className="text-4xl">🤖</div>
-
-            <h3 className="font-bold text-xl mt-3">
-
+            <h3 className="font-bold mt-2">
               AI Support Chat
-
             </h3>
-
-            <p className="text-gray-600 mt-2">
-
-              Talk about emotions and wellbeing.
-
-            </p>
 
           </div>
 
 
 
 
-          <div className="bg-purple-50 p-6 rounded-3xl text-center">
 
-            <div className="text-4xl">🌸</div>
+          <div
+            onClick={() => router.push("/period")}
+            className="bg-purple-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
+          >
 
-            <h3 className="font-bold text-xl mt-3">
+            🌸
 
-              Period Care
-
+            <h3 className="font-bold mt-2">
+              Period Tracker
             </h3>
-
-            <p className="text-gray-600 mt-2">
-
-              Health awareness and self-care tips.
-
-            </p>
 
           </div>
 
 
 
 
-          <div className="bg-green-50 p-6 rounded-3xl text-center">
 
-            <div className="text-4xl">🌿</div>
 
-            <h3 className="font-bold text-xl mt-3">
+          <div
+            onClick={() => router.push("/hygiene")}
+            className="bg-green-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
+          >
 
-              Self Care
+            🌿
 
+            <h3 className="font-bold mt-2">
+              Hygiene Tips
             </h3>
-
-            <p className="text-gray-600 mt-2">
-
-              Build positive daily habits.
-
-            </p>
 
           </div>
 
+
+
+        </div>
+
+
+
+
+        <div className="mt-10 bg-pink-50 rounded-2xl p-6">
+
+
+          <h2 className="text-2xl font-bold text-pink-600">
+            🌸 About SheSupport AI
+          </h2>
+
+
+          <p className="mt-3 text-gray-700">
+
+            SheSupport AI provides emotional support,
+            self-care guidance, period awareness and
+            wellbeing resources for women.
+
+          </p>
 
 
         </div>
