@@ -27,8 +27,7 @@ export default function Home() {
   const logout = async () => {
 
     await signOut(auth);
-
-    router.push("/login");
+    setUser(null);
 
   };
 
@@ -54,61 +53,81 @@ export default function Home() {
 
 
 
-        {user ? (
-
-          <div className="mt-8 bg-pink-50 rounded-2xl p-6">
-
-            <h2 className="text-2xl font-bold text-pink-600">
-              Welcome Back 🌸
-            </h2>
+        <div className="mt-8 text-center">
 
 
-            <p className="mt-3 text-gray-700">
-              📧 {user.email}
-            </p>
+          {user ? (
+
+            <div className="bg-pink-50 rounded-2xl p-5">
+
+              <h2 className="text-2xl font-bold text-pink-600">
+                Welcome Back 🌸
+              </h2>
 
 
-            <button
-              onClick={logout}
-              className="mt-5 bg-red-500 text-white px-6 py-3 rounded-xl"
-            >
-              Logout 🚪
-            </button>
-
-          </div>
+              <p className="mt-2 text-gray-700">
+                📧 {user.email}
+              </p>
 
 
-        ) : (
+              <button
+                onClick={logout}
+                className="mt-4 bg-red-500 text-white px-6 py-3 rounded-xl"
+              >
+                Logout 🚪
+              </button>
+
+            </div>
 
 
-          <div className="flex justify-center gap-4 mt-8">
+          ) : (
+
+            <div>
+
+              <p className="text-gray-600">
+                Welcome to SheSupport AI 🌸
+              </p>
 
 
-            <button
-              onClick={() => router.push("/signup")}
-              className="bg-pink-600 text-white px-8 py-3 rounded-xl"
-            >
-              Signup 🌸
-            </button>
+              <p className="text-sm text-gray-500 mt-2">
+                You can use all features without creating an account 💖
+              </p>
 
 
-            <button
-              onClick={() => router.push("/login")}
-              className="border border-pink-600 text-pink-600 px-8 py-3 rounded-xl"
-            >
-              Login 💖
-            </button>
+              <div className="flex justify-center gap-4 mt-5">
 
 
-          </div>
+                <button
+                  onClick={() => router.push("/signup")}
+                  className="bg-pink-600 text-white px-6 py-3 rounded-xl"
+                >
+                  Signup 🌸
+                </button>
 
-        )}
+
+                <button
+                  onClick={() => router.push("/login")}
+                  className="border border-pink-600 text-pink-600 px-6 py-3 rounded-xl"
+                >
+                  Login 💖
+                </button>
+
+
+              </div>
+
+
+            </div>
+
+          )}
+
+        </div>
 
 
 
 
 
-        <div className="grid md:grid-cols-3 gap-5 mt-10">
+        <div className="grid md:grid-cols-2 gap-5 mt-10">
+
 
 
           <div
@@ -143,25 +162,49 @@ export default function Home() {
 
 
 
+        </div>
 
+
+
+
+
+        <div className="grid md:grid-cols-2 gap-5 mt-5">
 
 
           <div
-            onClick={() => router.push("/hygiene")}
-            className="bg-green-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
+            onClick={() => router.push("/mood")}
+            className="bg-purple-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
           >
 
-            🌿
+            😊
 
             <h3 className="font-bold mt-2">
-              Hygiene Tips
+              Mood Tracker
             </h3>
 
           </div>
 
 
 
+
+
+          <div
+            onClick={() => router.push("/selfcare")}
+            className="bg-green-50 p-5 rounded-2xl text-center cursor-pointer hover:shadow-lg"
+          >
+
+            🌿
+
+            <h3 className="font-bold mt-2">
+              Self Care
+            </h3>
+
+          </div>
+
+
         </div>
+
+
 
 
 
@@ -175,11 +218,9 @@ export default function Home() {
 
 
           <p className="mt-3 text-gray-700">
-
             SheSupport AI provides emotional support,
             self-care guidance, period awareness and
             wellbeing resources for women.
-
           </p>
 
 
