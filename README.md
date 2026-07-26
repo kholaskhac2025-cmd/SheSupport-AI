@@ -1,48 +1,100 @@
 # 🌸 SheSupport AI
 
-## AI Wellness Companion for Women's Emotional Support & Self-Care 💖
+## 🤖 AI Companion for Women's Emotional Wellbeing
 
-SheSupport AI is an AI-powered wellness companion designed to support women's emotional wellbeing, self-care, and health awareness.
+SheSupport AI is an AI-powered wellness companion designed to support women's emotional health, self-care, and wellbeing.
 
-The app provides a friendly AI chat experience where users can talk about stress, anxiety, emotions, sleep, self-care, and period care.
+It provides a safe digital space where users can share their feelings, talk about emotions, learn self-care practices, and receive supportive AI guidance.
 
 ---
 
-## 🌸 Features
+# 🌍 Problem It Solves
 
-✨ User Authentication
-- Signup with email and password
-- Login system
-- Logout functionality
+Many women and university students experience stress, emotional pressure, mood changes, and difficulty accessing emotional wellness support.
 
-🤖 AI Support Chat
-- AI-powered emotional support using **Google Gemini API**
-- Stress management guidance
-- Anxiety support
-- Self-care suggestions
-- Personalized wellness conversations
+SheSupport AI provides an accessible AI-based platform that encourages emotional awareness, self-care habits, and wellbeing.
 
-🌸 Women's Wellness
+---
+
+# 👩‍🎓 Target Users
+
+- University students
+- Women managing emotional stress
+- Individuals interested in self-care and wellbeing
+
+---
+
+# ✨ Features
+
+## 🤖 AI Emotional Support Chat
+
+- Provides supportive emotional conversations.
+- Users can express feelings in English and Roman Urdu.
+- Gives encouraging responses and healthy coping suggestions.
+- Promotes emotional reflection and wellbeing.
+
+## 🔐 User Authentication
+
+- Signup with email and password.
+- Login functionality.
+- Logout option using Firebase Authentication.
+
+## 🌸 Women's Wellness Support
+
+Provides guidance about:
+
 - Period care awareness
 - Hygiene tips
-- Sleep and wellbeing guidance
+- Sleep and wellbeing
+- Stress management
+- Self-care practices
 
-🎨 Modern UI
-- Responsive design
-- Beautiful wellness-themed interface
-- Mobile-friendly layout
+## 🌿 Self Care Tips
+
+Helps users build healthy habits through:
+
+- Personal hygiene guidance
+- Positive routines
+- Emotional wellness practices
+- Self-care activities
+
+## 🌐 Language Support
+
+The app supports:
+
+- English 🇬🇧
+- Roman Urdu 🇵🇰
+- Simple supportive communication
 
 ---
 
-## 🛠️ Technologies Used
+# 🧠 AI Feature
+
+The main AI feature of SheSupport AI is an emotional wellness chatbot.
+
+The AI assistant helps users by:
+
+- Listening with empathy
+- Supporting emotional expression
+- Encouraging positive coping strategies
+- Suggesting healthy self-care practices
+
+Note:
+The AI provides wellness support and is not a replacement for professional medical or mental health care.
+
+---
+
+# 🛠️ Technologies Used
 
 - Next.js 16
 - React
 - TypeScript
 - Tailwind CSS
 - Firebase Authentication
-- **Google Gemini API (Generative AI)**
+- AI Chat API
+- GitHub
+- Vercel
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
