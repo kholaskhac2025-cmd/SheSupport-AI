@@ -1,263 +1,242 @@
-import Link from "next/link";
+"use client";
+
+import { useEffect, useState } from "react";
+import { auth } from "@/lib/firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { useRouter } from "next/navigation";
+
 
 export default function Home() {
 
+  const router = useRouter();
+
+  const [user, setUser] = useState<any>(null);
+
+
+
+  useEffect(() => {
+
+    const unsubscribe = onAuthStateChanged(
+      auth,
+      (currentUser) => {
+        setUser(currentUser);
+      }
+    );
+
+
+    return () => unsubscribe();
+
+
+  }, []);
+
+
+
+  const logout = async () => {
+
+    await signOut(auth);
+
+    router.push("/");
+
+
+  };
+
+
+
   return (
 
-    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-rose-50 p-8">
+    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-purple-100 to-pink-50 p-6">
 
-      <div className="max-w-5xl mx-auto">
 
+      <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-xl p-8">
 
-        {/* Header */}
 
-        <div className="bg-white rounded-3xl shadow-xl p-10 text-center">
 
-          <div className="text-5xl mb-4">
-            🌸 🌷 💕 🌺
-          </div>
+        <h1 className="text-5xl font-bold text-center text-pink-600">
 
+          🌸 SheSupport AI 🌸
 
-          <h1 className="text-5xl font-bold text-pink-600">
-            SheSupport AI
-          </h1>
+        </h1>
 
 
-          <p className="mt-5 text-xl text-gray-700">
-            Your AI wellness companion for women's health,
-            emotional support, and self-care.
-          </p>
 
+        <p className="text-center mt-4 text-gray-600 text-lg">
 
-          <p className="mt-3 text-lg text-purple-600">
-            خواتین کی صحت، جذبات اور خود کی دیکھ بھال کے لیے
-            آپ کی ذاتی AI ساتھی 💖
-          </p>
+          Your AI wellness companion for women's health,
+          emotional support and self-care 💖
 
+        </p>
 
-          <div className="mt-5 text-4xl">
-            🌸 ✨ 🌷 💗 🌺
-          </div>
 
 
-        </div>
 
+        {user ? (
 
 
+          <div className="mt-8 bg-pink-50 rounded-3xl p-6 text-center">
 
 
-        {/* Features */}
+            <h2 className="text-3xl font-bold text-pink-600">
 
-        <div className="grid md:grid-cols-2 gap-6 mt-10">
+              Welcome back 🌸
 
+            </h2>
 
 
-          {/* AI Chat */}
+            <p className="mt-3 text-gray-700">
 
-          <Link href="/chat">
-
-            <div className="bg-purple-500 hover:bg-purple-600 text-white rounded-3xl p-8 shadow-lg cursor-pointer transition">
-
-
-              <h2 className="text-3xl font-bold">
-                🤖 AI Support Chat
-              </h2>
-
-
-              <p className="mt-4 text-lg">
-
-                Talk with your AI wellness friend.
-
-                <br/>
-
-                اپنے جذبات اور مسائل کے بارے میں بات کریں۔
-
-              </p>
-
-
-            </div>
-
-          </Link>
-
-
-
-
-
-
-
-
-          {/* Mood Tracker */}
-
-          <Link href="/mood">
-
-            <div className="bg-pink-500 hover:bg-pink-600 text-white rounded-3xl p-8 shadow-lg cursor-pointer transition">
-
-
-              <h2 className="text-3xl font-bold">
-                😊 Mood Tracker
-              </h2>
-
-
-              <p className="mt-4 text-lg">
-
-                Track emotions and daily feelings.
-
-                <br/>
-
-                اپنے روزانہ موڈ کو ریکارڈ کریں۔
-
-              </p>
-
-
-            </div>
-
-          </Link>
-
-
-
-
-
-
-
-
-          {/* Period Tracker */}
-
-          <Link href="/period">
-
-            <div className="bg-rose-500 hover:bg-rose-600 text-white rounded-3xl p-8 shadow-lg cursor-pointer transition">
-
-
-              <h2 className="text-3xl font-bold">
-                🌸 Period Tracker
-              </h2>
-
-
-              <p className="mt-4 text-lg">
-
-                Monitor your menstrual health.
-
-                <br/>
-
-                اپنی ماہواری اور صحت کو ٹریک کریں۔
-
-              </p>
-
-
-            </div>
-
-          </Link>
-
-
-
-
-
-
-
-
-          {/* Self Care */}
-
-          <Link href="/selfcare">
-
-            <div className="bg-green-500 hover:bg-green-600 text-white rounded-3xl p-8 shadow-lg cursor-pointer transition">
-
-
-              <h2 className="text-3xl font-bold">
-                🌿 Self Care Tips
-              </h2>
-
-
-              <p className="mt-4 text-lg">
-
-                Build healthy daily habits.
-
-                <br/>
-
-                اچھی اور مثبت عادات اپنائیں۔
-
-              </p>
-
-
-            </div>
-
-          </Link>
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-        {/* Owner Section */}
-
-        <div className="mt-10 bg-white rounded-3xl p-8 text-center shadow-xl">
-
-
-          <h2 className="text-2xl font-bold text-pink-600">
-
-            🌸 SheSupport AI
-
-          </h2>
-
-
-
-          <p className="mt-3 text-gray-700 text-lg">
-
-            💖 You are important. Take care of yourself.
-
-          </p>
-
-
-
-          <p className="text-purple-600 mt-2">
-
-            آپ قیمتی ہیں، اپنی دیکھ بھال کریں 🌷
-
-          </p>
-
-
-
-
-
-          <div className="border-t mt-6 pt-5">
-
-
-            <p className="text-gray-600">
-
-              Built with 💕 by
+              📧 {user.email}
 
             </p>
 
 
 
-            <h3 className="text-3xl font-bold text-purple-600 mt-2">
+            <div className="flex justify-center gap-4 mt-6">
 
-              Khola Saqib
+
+              <button
+
+                onClick={()=>router.push("/chat")}
+
+                className="bg-pink-600 text-white px-8 py-3 rounded-xl"
+
+              >
+
+                Chat Now 🤖
+
+              </button>
+
+
+
+              <button
+
+                onClick={logout}
+
+                className="bg-red-500 text-white px-8 py-3 rounded-xl"
+
+              >
+
+                Logout 🚪
+
+              </button>
+
+
+            </div>
+
+
+          </div>
+
+
+
+        ) : (
+
+
+
+          <div className="flex justify-center gap-4 mt-8">
+
+
+            <button
+
+              onClick={()=>router.push("/signup")}
+
+              className="bg-pink-600 text-white px-8 py-3 rounded-xl"
+
+            >
+
+              Signup 🌸
+
+            </button>
+
+
+
+            <button
+
+              onClick={()=>router.push("/login")}
+
+              className="border-2 border-pink-600 text-pink-600 px-8 py-3 rounded-xl"
+
+            >
+
+              Login 💖
+
+            </button>
+
+
+          </div>
+
+
+
+        )}
+
+
+
+
+        <div className="grid md:grid-cols-3 gap-6 mt-12">
+
+
+
+          <div className="bg-pink-50 p-6 rounded-3xl text-center">
+
+            <div className="text-4xl">🤖</div>
+
+            <h3 className="font-bold text-xl mt-3">
+
+              AI Support Chat
 
             </h3>
 
+            <p className="text-gray-600 mt-2">
 
-
-            <p className="text-gray-500 mt-2">
-
-              AI Wellness App Creator 🌸
+              Talk about emotions and wellbeing.
 
             </p>
 
+          </div>
+
+
+
+
+          <div className="bg-purple-50 p-6 rounded-3xl text-center">
+
+            <div className="text-4xl">🌸</div>
+
+            <h3 className="font-bold text-xl mt-3">
+
+              Period Care
+
+            </h3>
+
+            <p className="text-gray-600 mt-2">
+
+              Health awareness and self-care tips.
+
+            </p>
+
+          </div>
+
+
+
+
+          <div className="bg-green-50 p-6 rounded-3xl text-center">
+
+            <div className="text-4xl">🌿</div>
+
+            <h3 className="font-bold text-xl mt-3">
+
+              Self Care
+
+            </h3>
+
+            <p className="text-gray-600 mt-2">
+
+              Build positive daily habits.
+
+            </p>
 
           </div>
 
 
 
         </div>
-
-
-
 
 
 
