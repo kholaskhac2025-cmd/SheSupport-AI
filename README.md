@@ -1,118 +1,151 @@
 # 🌸 SheSupport AI
 
-## 🤖 AI Companion for Women's Emotional Wellbeing
+## 🤖 AI Wellness Companion for Women's Emotional Support & Self-Care
 
-SheSupport AI is an AI-powered wellness companion designed to support women's emotional health, self-care, and wellbeing.
+🔗 **Live Demo:** https://she-support-ai.vercel.app
 
-It provides a safe digital space where users can share their feelings, talk about emotions, learn self-care practices, and receive supportive AI guidance.
+🔗 **GitHub Repository:** https://github.com/kholaskhac2025-cmd/SheSupport-AI
+
+
+## 📌 Project Overview
+
+SheSupport AI is an AI-powered emotional wellness companion designed to support women's mental wellbeing, self-care habits, and health awareness.
+
+The application provides a safe and supportive digital space where users can express their feelings, discuss emotional challenges, and receive helpful AI-based guidance.
+
+The app focuses on stress management, anxiety support, friendship difficulties, self-care practices, women's wellness awareness, and emotional reflection.
+
+> Note: SheSupport AI provides wellness support and awareness. It is not a replacement for professional medical or mental health care.
+
 
 ---
 
 # 🌍 Problem It Solves
 
-Many women and university students experience stress, emotional pressure, mood changes, and difficulty accessing emotional wellness support.
+Many women and university students experience:
 
-SheSupport AI provides an accessible AI-based platform that encourages emotional awareness, self-care habits, and wellbeing.
+- Emotional stress
+- Anxiety and overthinking
+- Difficulty expressing feelings
+- Academic pressure
+- Friendship and relationship challenges
+- Lack of accessible emotional wellness resources
+
+SheSupport AI provides an easy-to-access AI companion that encourages emotional awareness, self-care, and healthy coping strategies.
+
 
 ---
 
 # 👩‍🎓 Target Users
 
+SheSupport AI is designed for:
+
 - University students
 - Women managing emotional stress
 - Individuals interested in self-care and wellbeing
+- Users looking for emotional support and wellness guidance
+
 
 ---
 
 # ✨ Features
 
+
 ## 🤖 AI Emotional Support Chat
 
-- Provides supportive emotional conversations.
-- Users can express feelings in English and Roman Urdu.
-- Gives encouraging responses and healthy coping suggestions.
-- Promotes emotional reflection and wellbeing.
+- AI-powered emotional conversations
+- Supportive responses for stress, sadness, anxiety, and emotional challenges
+- Understands English and Pakistani Roman Urdu
+- Provides empathetic and human-like communication
+- Encourages healthy coping strategies
 
-## 🔐 User Authentication
 
-- Signup with email and password.
-- Login functionality.
-- Logout option using Firebase Authentication.
+## 🔐 User-Friendly Experience
+
+- Simple and clean interface
+- Mobile-friendly responsive design
+- Easy chat interaction
+- Private conversation experience
+
 
 ## 🌸 Women's Wellness Support
 
-Provides guidance about:
+Provides awareness about:
 
-- Period care awareness
-- Hygiene tips
+- Period care
+- Hygiene practices
+- Self-care routines
 - Sleep and wellbeing
-- Stress management
-- Self-care practices
+- Healthy daily habits
 
-## 🌿 Self Care Tips
 
-Helps users build healthy habits through:
+## 🌿 Self-Care Guidance
 
-- Personal hygiene guidance
-- Positive routines
-- Emotional wellness practices
-- Self-care activities
+Helps users develop positive habits through:
+
+- Emotional reflection
+- Relaxation suggestions
+- Healthy routines
+- Personal wellbeing practices
+
 
 ## 🌐 Language Support
 
-The app supports:
+Supports:
 
-- English 🇬🇧
-- Roman Urdu 🇵🇰
-- Simple supportive communication
+- English
+- Pakistani Roman Urdu
+
 
 ---
 
-# 🧠 AI Feature
+# 🧠 AI Integration
 
 The main AI feature of SheSupport AI is an emotional wellness chatbot.
 
-The AI assistant helps users by:
+The chatbot is powered by:
 
-- Listening with empathy
-- Supporting emotional expression
-- Encouraging positive coping strategies
-- Suggesting healthy self-care practices
+**Groq API + Llama AI Model**
 
-Note:
-The AI provides wellness support and is not a replacement for professional medical or mental health care.
+It is designed with a customized system prompt to provide:
+
+- Empathetic communication
+- Respectful responses
+- Emotional support
+- Self-care recommendations
+- Safe wellness guidance
+
 
 ---
 
 # 🛠️ Technologies Used
 
+## Frontend
+
 - Next.js 16
 - React
 - TypeScript
 - Tailwind CSS
+
+
+## Backend
+
+- Next.js API Routes
+- Groq API Integration
+
+
+## Authentication
+
 - Firebase Authentication
-- AI Chat API
+
+
+## Deployment & Tools
+
 - GitHub
 - Vercel
+- Visual Studio Code
+
 
 ---
-# 📸 Screenshots
 
-## 🏠 Home Page
-![Home Page](Screenshot%20(65).png)
-
-## 🤖 AI Support Chat
-![AI Chat](Screenshot%20(66).png)
-
-## 🌸 Period Tracker
-![Period Tracker](Screenshot%20(67).png)
-
-## 😊 Mood Tracker
-![Mood Tracker](Screenshot%20(68).png)
-
-## 🌿 Self Care
-![Self Care](Screenshot%20(69).png)
-
-## 🧼 Hygiene Tips
-![Hygiene Tips](Screenshot%20(70).png)
 # 📂 Project Structure
