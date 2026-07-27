@@ -96,5 +96,23 @@ The AI provides wellness support and is not a replacement for professional medic
 - Vercel
 
 ---
+# 📸 Screenshots
 
+## 🏠 Home Page
+![Home Page](Screenshot%20(65).png)
+
+## 🤖 AI Support Chat
+![AI Chat](Screenshot%20(66).png)
+
+## 🌸 Period Tracker
+![Period Tracker](Screenshot%20(67).png)
+
+## 😊 Mood Tracker
+![Mood Tracker](Screenshot%20(68).png)
+
+## 🌿 Self Care
+![Self Care](Screenshot%20(69).png)
+
+## 🧼 Hygiene Tips
+![Hygiene Tips](Screenshot%20(70).png)
 # 📂 Project Structure
