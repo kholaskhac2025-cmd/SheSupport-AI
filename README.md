@@ -1,248 +1,196 @@
 # 🌸 SheSupport AI
 
-## 🤖 AI-Powered Women's Wellness & Emotional Support Companion
+## 🤖 AI Companion for Women's Emotional Wellbeing
 
-🔗 **Live Demo:** https://she-support-ai.vercel.app
-
-🔗 **GitHub Repository:** https://github.com/kholaskhac2025-cmd/SheSupport-AI
-
+SheSupport AI is an AI-powered wellness companion designed to support women's emotional health, menstrual wellness, and self-care. The application provides a safe and supportive digital space where users can share their emotions, receive AI-powered emotional support, track their mood, monitor menstrual cycles, and learn healthy self-care habits.
 
 ---
 
-# 📌 Project Overview
+# 🌍 Problem It Solves
 
-SheSupport AI is an AI-powered women's wellness companion designed to support emotional health, menstrual awareness, self-care, and daily wellbeing.
-
-The main purpose of SheSupport AI is to provide a safe, supportive, and private digital space where women and girls can discuss their emotions, track their wellness journey, and learn healthy self-care practices.
-
-Many girls face difficulties because they do not regularly track their menstrual cycles, forget their period dates, or lack proper awareness about menstrual hygiene. This can create stress, anxiety, discomfort, and challenges in managing daily activities, especially during academic life and social situations.
-
-SheSupport AI aims to solve this problem by combining:
-
-- 🌸 AI emotional support
-- 🩷 Menstrual cycle awareness
-- 😊 Mood tracking
-- 🧼 Hygiene education
-- 🌿 Self-care guidance
-- 💖 Women's wellness support
-
-
-The app helps users become more aware of their physical and emotional wellbeing by allowing them to:
-
-- Record and track menstrual cycle dates
-- Maintain period history
-- Understand personal cycle patterns
-- Monitor mood changes
-- Learn about hygiene and personal care
-- Discuss stress, anxiety, and emotional concerns
-- Receive supportive AI-based guidance
-
-
-> Note: SheSupport AI provides general wellness awareness and emotional support. It does not diagnose medical conditions or replace professional healthcare services.
-
+Many women and university students experience stress, anxiety, emotional pressure, mood changes, and menstrual health challenges but often do not have immediate access to emotional support. SheSupport AI helps users improve emotional awareness and develop healthier self-care habits through an AI-powered wellness companion that is available anytime.
 
 ---
 
-# 🌍 Problem Statement
+# 👩‍🎓 Target Users
 
-Many young women and students experience challenges related to:
-
-- Forgetting menstrual cycle dates
-- Being unprepared for periods
-- Lack of menstrual hygiene awareness
-- Stress related to women's health
-- Academic pressure
-- Overthinking
-- Anxiety
-- Emotional struggles
-
-
-These challenges can affect confidence, daily routine, academic performance, and overall wellbeing.
-
-SheSupport AI provides a digital solution that combines psychology-based emotional support with women's wellness awareness to help users better understand and manage their wellbeing.
-
+* Women of all ages
+* University students
+* Individuals seeking emotional wellbeing support
+* Anyone interested in self-care and healthy daily habits
 
 ---
 
-# 🎯 Objectives of SheSupport AI
+# ✨ Features
 
-The main objectives of this application are:
+### 🤖 AI Emotional Support Chat
 
-✅ To provide emotional support through AI conversations
+* AI-powered emotional support
+* English and Urdu conversations
+* Encouraging and empathetic responses
+* Healthy coping suggestions
+* Emotional wellbeing guidance
 
-✅ To encourage women to track their menstrual cycles
+### 😊 Mood Tracker
 
-✅ To improve awareness about hygiene and self-care
+* Record daily mood
+* Track emotional wellbeing
+* Build self-awareness
+* View mood history
 
-✅ To help users understand mood and emotional patterns
+### 🌸 Period Tracker
 
-✅ To provide a safe space for discussing personal concerns
+* Track menstrual cycles
+* Monitor period dates
+* Improve menstrual awareness
 
-✅ To promote healthy coping strategies for stress and anxiety
+### 💡 Self Care Tips
 
+* Personal hygiene reminders
+* Menstrual hygiene guidance
+* Pad changing reminders
+* Healthy eating tips
+* Hydration reminders
+* Sleep recommendations
+* Stress management tips
+* Daily self-care habits
 
----
+### 🌐 Multi-language Support
 
-# ✨ Key Features
-
-
-# 🤖 AI Emotional Support Chat
-
-SheSupport AI provides an AI-powered conversational assistant that supports users with emotional concerns.
-
-Features:
-
-- Human-like supportive conversations
-- Stress management guidance
-- Anxiety awareness
-- Emotional support
-- Friendship problem discussions
-- Relationship-related emotions
-- Self-care suggestions
-- Pakistani Roman Urdu and English support
-
-
----
-
-# 🩷 Period Care & Cycle Tracking
-
-One of the main purposes of SheSupport AI is helping girls become more aware of their menstrual health.
-
-Users can:
-
-- Log their period dates
-- Maintain menstrual cycle history
-- Track previous cycles
-- Understand their cycle patterns
-- Prepare for upcoming periods
-- Reduce stress caused by forgetting dates
-
-
-This feature helps users feel more prepared and confident about their menstrual routine.
-
+* English
+* اردو
+* Simple supportive communication
 
 ---
 
-# 🧼 Hygiene Awareness
+# 🧠 AI Feature
 
-SheSupport AI promotes healthy personal hygiene habits.
+The core feature of SheSupport AI is an emotional wellness chatbot that provides supportive conversations using AI. The chatbot encourages users to express their feelings while promoting positive mental wellbeing and healthy self-care practices.
 
-Users can learn about:
+## AI System Prompt
 
-- Menstrual hygiene practices
-- Personal cleanliness
-- Hand hygiene
-- Oral care
-- Body care routines
-- Healthy daily habits
+The AI assistant is guided using the following instruction:
 
+```text
+You are SheSupport AI, a supportive emotional wellness companion for women.
 
-The goal is to increase awareness and encourage positive self-care behaviours.
+Your goal is to provide kind, empathetic, respectful, and encouraging responses to users experiencing stress, sadness, anxiety, mood changes, or emotional challenges.
 
+Always:
+- Respond with empathy and kindness.
+- Encourage healthy coping strategies.
+- Recommend self-care practices.
+- Support users in English or Urdu.
+- Suggest hydration, rest, exercise, journaling, meditation, or talking to trusted family members.
+- Encourage users to seek professional medical or mental health care whenever necessary.
 
----
+Never:
+- Diagnose physical or mental illnesses.
+- Prescribe medications.
+- Encourage harmful behaviour.
+- Replace licensed healthcare professionals.
 
-# 😊 Mood Tracking & Emotional Awareness
-
-Emotional wellbeing is an important part of women's health.
-
-The app supports mood awareness by helping users reflect on:
-
-- Daily mood changes
-- Stress levels
-- Emotional patterns
-- Anxiety triggers
-- Feelings and thoughts
-
-
-Mood tracking helps users understand their emotions and develop better self-awareness.
-
-
----
-
-# 🌿 Self-Care Support
-
-SheSupport AI encourages users to build healthy self-care routines.
-
-It provides guidance related to:
-
-- Relaxation techniques
-- Stress management
-- Healthy sleep habits
-- Journaling
-- Mindfulness
-- Personal growth
-- Emotional balance
-
-
----
-
-# 💖 Personal & Emotional Support Topics
-
-Users can discuss:
-
-- Academic stress
-- Exam pressure
-- Overthinking
-- Anxiety
-- Sadness
-- Friendship conflicts
-- Relationship emotions
-- Confidence issues
-- Daily life challenges
-
-
----
-
-# 🧠 AI Technology
-
-SheSupport AI uses Generative AI technology to create supportive conversations.
-
-
-## AI Integration
-
-Technology used:
-
-- Groq API
-- Llama AI Model
-
-
-The AI assistant is customized with a specially designed system prompt to provide:
-
-- Empathetic responses
-- Respectful communication
-- Supportive suggestions
-- Safe conversations
-- Human-like interaction
-
+If a user appears to be in danger or crisis, encourage them to contact trusted family members, emergency services, or a qualified mental health professional immediately.
+```
 
 ---
 
 # 🛠️ Technologies Used
 
-
-## Frontend
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
-
-## Backend
-
-- Next.js API Routes
-- Groq API
-- Llama AI Model
-
-
-## Deployment & Development
-
-- GitHub
-- Vercel
-- Visual Studio Code
-
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Groq API (Llama Model)
+* Google Gemini SDK
+* Next.js API Routes
+* GitHub
+* Vercel
 
 ---
 
-# 📂 Project Structure
+# 🌐 Live Application
+
+https://she-support-ai.vercel.app/
+
+---
+
+# 📂 GitHub Repository
+
+https://github.com/kholaskhac2025-cmd/SheSupport-AI
+
+---
+
+# 🚀 How to Run the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kholaskhac2025-cmd/SheSupport-AI.git
+```
+
+Open the project folder:
+
+```bash
+cd SheSupport-AI
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# 📸 Screenshots
+
+Include screenshots of:
+
+* 🏠 Home Page
+* 🤖 AI Emotional Support Chat
+* 😊 Mood Tracker
+* 🌸 Period Tracker
+* 💡 Self Care Tips
+
+---
+
+# 🌟 Project Impact
+
+SheSupport AI helps women become more aware of their emotional wellbeing by combining AI-powered emotional support with practical wellness tools such as mood tracking, menstrual cycle tracking, and self-care guidance. The project demonstrates how artificial intelligence can be used to solve real-life wellbeing challenges through a simple, accessible web application.
+
+---
+
+# 🔒 Privacy & Safety
+
+* Conversations are intended for emotional support only.
+* SheSupport AI is not a replacement for professional medical or mental health care.
+* Users are encouraged to seek professional help whenever needed.
+
+---
+
+# 👩‍💻 Creator
+
+**Built by Khola Saqib**
+
+**Project Name:** SheSupport AI
+
+An AI-powered emotional wellness companion created to support women's emotional wellbeing, menstrual wellness, and self-care through compassionate AI conversations.
+<img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/3f98ba75-6cc3-41c8-b29a-b67027b3f6b2" />
+<img width="1920" height="1080" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/9bfc7a0f-a008-4eb8-b2ce-d189b5af990d" />
+<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/0ffbfd8d-63c2-4875-8d24-7dfad9252f89" />
+<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/d2db41eb-f213-4023-a501-95a134a894b5" />
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/5fa3db05-725a-4525-8c38-8bdda3eaa4f6" />
+<img width="1920" height="1080" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/7949203f-7368-464f-acfa-4be607332523" />
